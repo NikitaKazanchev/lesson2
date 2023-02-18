@@ -1,12 +1,12 @@
 def main(st1, st2):
     
-    if type(st1) == str and type(st2) == str and st1 == st2:
+    if isinstance(st1, str) and isinstance(st2, str) and st1 == st2:
         return 1
     
-    elif type(st1) == str and type(st2) == str and st1 != st2 and len(st1) > len(st2):
+    elif isinstance(st1, str) and isinstance(st2, str) and st1 != st2 and len(st1) > len(st2):
         return 2
     
-    elif type(st1) == str and type(st2) == str and st1 != st2 and st2 == 'learn':
+    elif isinstance(st1, str) and isinstance(st2, str) and st1 != st2 and st2 == 'learn':
         return 3
     
     else:

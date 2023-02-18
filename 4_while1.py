@@ -1,7 +1,7 @@
 def hello_user():
      while True:
-        a = input('Как дела?' )
-        if a == "Хорошо":
+        user_question = input('Как дела?' )
+        if user_question == "Хорошо":
             break
         
 if __name__ == "__main__":

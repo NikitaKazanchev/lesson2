@@ -10,5 +10,5 @@ def main():
         return "учится в ВУЗе или работает"
        
 if __name__ == "__main__":
-    a = main()
-    print(a)
+    user_response = main()
+    print(user_response)

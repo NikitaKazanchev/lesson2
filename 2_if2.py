@@ -12,5 +12,6 @@ def main(st1, st2):
     else:
         return 0
 
-a = main('12', 'learn')
-print(a)
+if __name__ == "__main__":
+    your_input = main('12', 'learn')
+    print(your_input)

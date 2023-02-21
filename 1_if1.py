@@ -8,6 +8,7 @@ def main():
        
     else:
         return "учится в ВУЗе или работает"
+ 
        
 if __name__ == "__main__":
     user_response = main()
